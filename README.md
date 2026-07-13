@@ -109,29 +109,47 @@ Users can customize predictions using:
 
 # 📸 Application Preview
 
-## Property Details
-
-Select city, property information, and prediction type.
-
-*(Add Screenshot 1 here)*
+Explore the modern and user-friendly interface of **PropertyPulseIndia**, designed to deliver accurate property price predictions across major Indian cities.
 
 ---
 
-## City Selection
+## 🏠 Home Page
 
-Choose from multiple Indian metropolitan cities.
+The landing page provides an overview of the application, highlighting its key features, supported cities, AI-powered prediction capabilities, and quick navigation to the prediction dashboard.
 
-*(Add Screenshot 2 here)*
+<p align="center">
+  <img src="assets/images/Home.png" alt="PropertyPulseIndia Home Page" width="900">
+</p>
+
+---
+
+## 📝 Property Details
+
+Enter comprehensive property information including **Prediction Type (Buy/Sell or Rent), City, Locality, Area, Property Type, Bedrooms, Bathrooms, Furnishing Status, Property Age, and Parking Availability** to generate an accurate price prediction.
+
+<p align="center">
+  <img src="assets/images/Dashboard.png" alt="Property Details" width="900">
+</p>
 
 ---
 
-## Prediction Dashboard
+## 🌆 City Selection
 
-Interactive dashboard displaying statistics and prediction options.
+Choose from **15+ major Indian cities**, including Delhi, Mumbai, Bengaluru, Hyderabad, Pune, Chennai, Kolkata, Noida, Gurugram, Ahmedabad, Jaipur, Lucknow, Chandigarh, Indore, Patna, and more for location-specific property price estimation.
 
-*(Add Screenshot 3 here)*
+<p align="center">
+  <img src="assets/images/cityselection.png" alt="City Selection" width="900">
+</p>
 
 ---
+
+## 📊 Prediction Dashboard
+
+A clean and interactive dashboard that displays property statistics and enables users to predict **Buy/Sell** and **Rental** prices in real time using Machine Learning.
+
+<p align="center">
+  <img src="assets/images/Price_Distribution.png" alt="Prediction Dashboard" width="900">
+</p>
 
 # 🏗 System Architecture
 
