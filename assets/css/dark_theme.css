@@ -1,0 +1,66 @@
+/* Dark theme - with better contrast */
+.stApp {
+    background: #0e1117;
+}
+
+.css-1d391kg, .css-1e5imcs, .sidebar-content {
+    background: #1e1e2e !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #2d2d44;
+}
+
+/* Force light text on dark background */
+.sidebar .stMarkdown, 
+.sidebar p, 
+.sidebar span, 
+.sidebar label,
+.sidebar .stSelectbox label,
+.sidebar .stNumberInput label,
+.sidebar .stRadio label {
+    color: #e0e0e0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #c0c0e0 !important;
+}
+
+p, span, .stMarkdown, .stMarkdown p {
+    color: #d0d0d0 !important;
+}
+
+.stSelectbox label, 
+.stNumberInput label, 
+.stRadio label {
+    color: #d0d0d0 !important;
+}
+
+.stSelectbox input,
+.stNumberInput input {
+    color: #e0e0e0 !important;
+    background: #2d2d44 !important;
+}
+
+.stButton > button {
+    background: linear-gradient(135deg, #4a5bb0 0%, #5a3d8a 100%);
+    color: white !important;
+}
+
+.css-1r6slb0, .element-container {
+    background: #1e1e2e !important;
+    border: 1px solid #2d2d44 !important;
+}
+
+.stMetric {
+    background: #1e1e2e !important;
+    border: 1px solid #2d2d44 !important;
+}
+
+.stMetric label, .stMetric div {
+    color: #e0e0e0 !important;
+}
+
+.streamlit-expanderHeader {
+    background: #1e1e2e !important;
+    color: #c0c0e0 !important;
+    border: 1px solid #2d2d44 !important;
+}

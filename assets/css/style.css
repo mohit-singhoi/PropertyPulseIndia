@@ -1,0 +1,230 @@
+/* Main container */
+.stApp {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+/* Sidebar styling */
+.css-1d391kg, .css-1e5imcs, .sidebar-content {
+    background: white !important;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Sidebar text colors - FORCE BLACK TEXT */
+.sidebar .stMarkdown, 
+.sidebar p, 
+.sidebar span, 
+.sidebar label,
+.sidebar .stSelectbox label,
+.sidebar .stNumberInput label,
+.sidebar .stRadio label,
+.sidebar .stButton button {
+    color: #1a1a2e !important;
+    font-weight: 500 !important;
+}
+
+/* Sidebar headers */
+.sidebar h1, .sidebar h2, .sidebar h3, .sidebar h4 {
+    color: #1E3A8A !important;
+    font-weight: 700 !important;
+}
+
+/* Main content text colors */
+.stMarkdown p, .stMarkdown span, .stMarkdown div {
+    color: #1a1a2e !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #1E3A8A !important;
+    font-weight: 700 !important;
+}
+
+/* Labels and input text */
+.stSelectbox label, 
+.stNumberInput label, 
+.stRadio label,
+.stTextInput label,
+.stDateInput label {
+    color: #1a1a2e !important;
+    font-weight: 600 !important;
+}
+
+/* Input values */
+.stSelectbox div[data-baseweb="select"] span,
+.stNumberInput input,
+.stTextInput input {
+    color: #1a1a2e !important;
+    background: white !important;
+}
+
+/* Button styling */
+.stButton > button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 700 !important;
+    transition: transform 0.2s;
+    border-radius: 8px;
+}
+
+.stButton > button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+/* Card styling */
+.css-1r6slb0, .element-container, .stAlert {
+    background: white !important;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Metric styling */
+.css-1p05t04, .stMetric {
+    background: white !important;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Metric labels and values */
+.stMetric label, .stMetric div {
+    color: #1a1a2e !important;
+}
+
+.stMetric .css-1p05t04 {
+    color: #1a1a2e !important;
+}
+
+/* Expander header */
+.streamlit-expanderHeader {
+    background: white !important;
+    border-radius: 10px;
+    color: #1E3A8A !important;
+    font-weight: 600 !important;
+}
+
+.streamlit-expanderHeader:hover {
+    background: #f0f4ff !important;
+}
+
+/* Radio buttons */
+.stRadio > div {
+    gap: 10px;
+}
+
+.stRadio > div > label {
+    background: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    color: #1a1a2e !important;
+}
+
+.stRadio > div > label[data-checked="true"] {
+    background: #667eea;
+    color: white !important;
+    border-color: #667eea;
+}
+
+/* Footer text */
+footer p, .footer-text {
+    color: #4a4a6a !important;
+}
+
+/* Prediction result box */
+.prediction-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.prediction-box h1, .prediction-box h2, .prediction-box h3 {
+    color: white !important;
+}
+
+.prediction-box p {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] button {
+    color: #1a1a2e !important;
+    font-weight: 600 !important;
+}
+
+.stTabs [data-baseweb="tab-list"] button[aria-selected="true"] {
+    color: #667eea !important;
+    border-bottom-color: #667eea !important;
+}
+
+/* Select box dropdown */
+.stSelectbox div[data-baseweb="select"] {
+    color: #1a1a2e !important;
+}
+
+/* Number input */
+.stNumberInput input {
+    color: #1a1a2e !important;
+}
+
+/* Info, warning, success messages */
+.stAlert {
+    color: #1a1a2e !important;
+}
+
+.stAlert .stMarkdown p {
+    color: #1a1a2e !important;
+}
+
+/* Dataframe */
+.dataframe {
+    color: #1a1a2e !important;
+}
+
+.dataframe th {
+    color: #1E3A8A !important;
+    background: #f0f4ff !important;
+}
+
+.dataframe td {
+    color: #1a1a2e !important;
+}
+
+/* Download button */
+.stDownloadButton button {
+    background: #1E3A8A !important;
+    color: white !important;
+}
+
+/* Metrics in columns */
+[data-testid="stMetricValue"] {
+    color: #1E3A8A !important;
+    font-weight: 700 !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #4a4a6a !important;
+    font-weight: 500 !important;
+}
+
+[data-testid="stMetricDelta"] {
+    color: #667eea !important;
+}
+
+/* Expander content */
+.streamlit-expanderContent {
+    background: white !important;
+    color: #1a1a2e !important;
+}
+
+.streamlit-expanderContent p,
+.streamlit-expanderContent span,
+.streamlit-expanderContent div {
+    color: #1a1a2e !important;
+}
