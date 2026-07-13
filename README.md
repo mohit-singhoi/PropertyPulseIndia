@@ -138,7 +138,7 @@ Enter comprehensive property information including **Prediction Type (Buy/Sell o
 Choose from **15+ major Indian cities**, including Delhi, Mumbai, Bengaluru, Hyderabad, Pune, Chennai, Kolkata, Noida, Gurugram, Ahmedabad, Jaipur, Lucknow, Chandigarh, Indore, Patna, and more for location-specific property price estimation.
 
 <p align="center">
-  <img src="assets/images/cityselection.png" alt="City Selection" width="900">
+  <img src="assets/images/cityselection.png" alt="City Selection" width="500" height = "500">
 </p>
 
 ---
