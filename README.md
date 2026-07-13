@@ -32,32 +32,27 @@ This project demonstrates the complete Machine Learning lifecycle, including dat
 
 # ✨ Key Features
 
-### 🏙️ Multi-City Prediction
+## 🌆 Supported Cities
 
-Predict property prices across **15+ major Indian cities**, including:
+PropertyPulseIndia currently supports AI-powered property price prediction across **15 major Indian cities** in India:
 
-- Delhi
-- Noida
-- Greater Noida
-- Gurugram
-- Mumbai
-- Pune
-- Bengaluru
-- Hyderabad
-- Chennai
-- Kolkata
-- Ahmedabad
-- Jaipur
-- Lucknow
-- Chandigarh
-- Indore
-- Bhopal
-- Surat
-- Kochi
-- Bhubaneswar
-- Patna
+- 🏙️ Bengaluru
+- 🏙️ Hyderabad
+- 🏙️ Patna
+- 🏙️ Mumbai
+- 🏙️ Chennai
+- 🏙️ Jaipur
+- 🏙️ Ahmedabad
+- 🏙️ Lucknow
+- 🏙️ Kochi
+- 🏙️ Chandigarh
+- 🏙️ Delhi
+- 🏙️ Noida
+- 🏙️ Greater Noida
+- 🏙️ Gurugram
+- 🏙️ Pune
 
----
+The application predicts both **Buy/Sell** and **Rental** property prices based on city-specific real estate data and user-provided property details.
 
 ### 💰 Dual Prediction Modes
 
