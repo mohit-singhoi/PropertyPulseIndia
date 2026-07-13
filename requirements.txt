@@ -8,3 +8,4 @@ xgboost==1.7.6
 category_encoders==2.6.1
 matplotlib==3.7.2
 seaborn==0.12.2
+gdown
